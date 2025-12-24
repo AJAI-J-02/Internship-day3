@@ -1,0 +1,30 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-text {
+  flex-grow: 1;   /* pushes button to bottom */
+}
+
+.card .btn {
+  align-self: flex-start; /* keeps button aligned */
+}

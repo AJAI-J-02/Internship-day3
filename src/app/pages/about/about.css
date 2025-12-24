@@ -1,0 +1,74 @@
+/* Section */
+.coe-section {
+  background-color: #f7f9fc;
+  padding: 60px 20px;
+}
+
+.coe-title {
+  color: #1e6bff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Cards Container */
+.coe-container {
+  display: flex;
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Individual Card */
+.coe-card {
+  background-color: #e2e9fb;
+  padding: 25px 22px;
+  flex: 1 1 300px;
+  min-height: 200px;
+  border-radius: 2px;
+}
+
+/* Card Heading */
+.coe-card h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0b2c6d;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
+/* Card Text */
+.coe-card p {
+  font-size: 14px;
+  color: #2a2a2a;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .coe-container {
+    flex-direction: column;
+  }
+}
+
+.map-container {
+  margin: 20px;  
+  text-align: center; 
+}
+
+.map-container iframe {
+  width: 100%;   
+  max-width: 800px; 
+  height: 450px;
+  border: 0;
+  border-radius: 8px; 
+}
+
+.accordion {
+  margin: 50px;   /* top, right, bottom, left */
+}

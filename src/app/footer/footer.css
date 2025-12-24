@@ -1,0 +1,104 @@
+/* Footer CSS */
+.footer {
+  background-color: #2d3f7f;
+  color: #fff;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  color: #f79533;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.contact-column .footer-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-form input {
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+
+.footer-form button {
+  background-color: #f79533;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.contact-btn {
+  background-color: #f79533;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  
+  
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.social-icons a {
+  color:white;           /* Default icon color */
+ 
+}
+
+.social-icons a:hover {
+  color: #007bff;        
+}
+
+.social-icons a i {
+  font-size: 24px;       /* Icon size */
+}
